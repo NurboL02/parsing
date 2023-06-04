@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Список новостей</title>
+</head>
+<body>
+    <h1>Список новостей</h1>
+    <ul>
+        {% for news_title in news_list %}
+            <li>{{ news_title }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
